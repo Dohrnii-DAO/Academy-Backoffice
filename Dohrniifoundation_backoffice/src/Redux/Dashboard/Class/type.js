@@ -1,0 +1,3 @@
+export const REQUEST_CLASS_ADD = "class/REQUEST_CLASS_ADD";
+export const REQUEST_UPDATE_CLASS = "class/REQUEST_UPDATE_CLASS";
+export const REQUEST_CLASS_LIST = "class/REQUEST_CLASS_LIST";

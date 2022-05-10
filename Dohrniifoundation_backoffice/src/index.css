@@ -1,0 +1,20 @@
+body {
+  --bs-body-font-family: "FuturaPT";
+}
+@font-face {
+  font-family: 'FuturaPT' ;
+  src: url('./Assets/font/FuturaPT-Medium.eot') ;
+  src: url('./Assets/font/FuturaPT-Medium.eot?#iefix') format('embedded-opentype'), url('./Assets/font/FuturaPT-Medium.woff2') format('woff2'), url('./Assets/font/FuturaPT-Medium.woff') format('woff'), url('./Assets/font/FuturaPT-Medium.ttf') format('truetype'), url('./Assets/font/FuturaPT-Medium.svg#FuturaPT-Medium') format('svg') ;
+  font-weight: 500 ;
+  font-style: normal ;
+  font-display: swap ;
+}
+
+@font-face {
+  font-family: 'Futura PT' ;
+  src: url('./Assets/font/FuturaPT-Bold.eot') ;
+  src: url('./Assets/font/FuturaPT-Bold.eot?#iefix') format('embedded-opentype'), url('./Assets/font/FuturaPT-Bold.woff2') format('woff2'), url('./Assets/font/FuturaPT-Bold.woff') format('woff'), url('./Assets/font/FuturaPT-Bold.ttf') format('truetype'), url('./Assets/font/FuturaPT-Bold.svg#FuturaPT-Bold') format('svg') ;
+  font-weight: bold ;
+  font-style: normal ;
+  font-display: swap ;
+}

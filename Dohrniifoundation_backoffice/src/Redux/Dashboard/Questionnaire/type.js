@@ -1,0 +1,22 @@
+export const REQUEST_QUESTIONS_ADD = 'questionnaire/REQUEST_QUESTIONS_ADD';
+export const REQUEST_ANSWERS_ADD = 'questionnaire/REQUEST_ANSWERS_ADD';
+export const REQUEST_QUESTIONS_LIST = 'questionnaire/REQUEST_QUESTIONS_LIST';
+export const REQUEST_ANSWER_LIST = 'questionnaire/REQUEST_ANSWER_LIST';
+export const REQUEST_UPDATE_QUESTIONS = 'questionnaire/REQUEST_UPDATE_QUESTIONS';
+export const REQUEST_UPDATE_ANSWER= 'questionnaire/REQUEST_UPDATE_ANSWER';
+export const REQUEST_DELETE_QUESTIONS = 'questionnaire/REQUEST_DELETE_QUESTIONS';
+export const REQUEST_DELETE_ANSWERS = 'questionnaire/REQUEST_DELETE_ANSWERS';
+
+export const REQUEST_QUESTION_SUCCESS = 'questionnaire/REQUEST_QUESTION_SUCCESS';
+export const REQUEST_ANSWERS_SUCCESS = 'questionnaire/REQUEST_ANSWERS_SUCCESS';
+export const REQUEST_QUESTIONS_LISTSUCCESS = 'questionnaire/REQUEST_QUESTIONS_LISTSUCCESS';
+
+
+
+
+
+
+
+
+
+

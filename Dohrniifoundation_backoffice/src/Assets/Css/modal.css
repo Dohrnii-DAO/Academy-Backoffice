@@ -1,0 +1,94 @@
+
+
+/*Email Verification Modal*/
+.email-header{
+    background-color: #36c0be;
+    color: #fff;
+    padding: .4rem 1.4rem !important;
+}
+.email-title{
+    font-size: 15px !important;
+    font-weight: normal !important;
+}
+.modal-content{
+    border: 1px solid transparent !important;
+}
+.modal-content p {
+    font-size: 1rem;
+    color: #36c0be !important;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.email-header .btn-close {
+    padding: .5rem .5rem;
+    margin: -.5rem -.5rem -.5rem auto;
+    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath d='M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+    opacity: 1 !important;
+}
+
+.email-header .btn-close:hover {
+    outline: 0;
+    box-shadow: none !important;
+    opacity: .75 !important;
+}
+span.email-check {
+    border: 1px solid #36c0be;
+    border-radius: 50%;
+    color: #ffffff;
+    padding: 1px 7px;
+    background-color: #36c0be;
+    font-size: 21px;
+}
+
+/* for invalid */
+span.email-invalid{
+    border: 1px solid #ed473b;
+    border-radius: 50%;
+    color: #ffffff;
+    padding: 1px 6px;
+    background-color: #ed473b;
+    font-size: 21px;
+}
+.email-invalid-header{
+    background-color: #ed473b;
+    color: #fff;
+    padding: .4rem 1.4rem !important;
+}
+.email-invalid-title{
+    font-size: 15px !important;
+    font-weight: normal !important;
+}
+.modal-content{
+    border: 1px solid transparent !important;
+}
+.modal-content p {
+    font-size: 1rem;
+    color: #212529 !important;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.email-invalid-header .btn-close {
+    padding: .5rem .5rem;
+    margin: -.5rem -.5rem -.5rem auto;
+    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath d='M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+    opacity: 1 !important;
+}
+
+.email-invalid-header .btn-close:hover {
+    outline: 0;
+    box-shadow: none !important;
+    opacity: .75 !important;
+}
+
+.modal-head{
+
+    flex-wrap: wrap;
+}
+
+.selecty-width{
+
+    background-color: #000;;
+}
+

@@ -1,0 +1,88 @@
+.header-section {
+  position: relative;
+}
+.dashboard-logo img {
+  width: 70%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+.header-navbar {
+  box-shadow: 0px 9px 18px -10px #dbd7d7d6 !important;
+  z-index: 1 !important;
+}
+a.header.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+a#basic-nav-dropdown {
+  color: #0f253e;
+}
+
+.dropdown-menu {
+  border: 1px solid rgba(0, 0, 0, 0.15) !important;
+  border-top: 7px solid #36c0be !important;
+}
+.dropdown-menu[data-bs-popper] {
+  margin-top: 0.5rem !important;
+}
+.dropdown-divider {
+  border-top: 0.11rem solid #dfe6e7f5 !important;
+}
+.d-dropdown {
+  font-weight: normal;
+  font-size: 22px;
+}
+
+/*actions button style*/
+
+.header-action-btn {
+  width: 42px;
+  height: 40px;
+}
+
+.dropdown-menu[data-bs-popper] {
+  top: 100%;
+  right: 30px !important;
+  margin-top: 0.125rem;
+  max-width: 200px;
+  margin-left: auto;
+}
+
+.lessons-search-icon {
+  position: relative;
+  right: 22px;
+  top: 10px;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  z-index: 0;
+}
+
+.min-width {
+  text-align: right;
+  width: 279px;
+  float: right;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+  padding-right: 2.3rem !important;
+  padding-left: 0.5rem;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  a.header.navbar-brand {
+    transform: translateX(-113%);
+    left: 50%;
+    position: absolute;
+  }
+  .header-action {
+    transform: translateY(162%);
+    left: 6%;
+    position: absolute;
+  }
+  .header-action .col {
+    padding: 0px;
+  }
+}

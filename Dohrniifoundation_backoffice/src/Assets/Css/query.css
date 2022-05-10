@@ -1,0 +1,13 @@
+.select-query > span + div {
+  width: 160px;
+}
+.select-query {
+  height: 38px;
+}
+.select-query > span + div:hover,
+.select-query > span + div:focus {
+  border-color: #c5eeed !important;
+  border-width: 3px;
+  box-shadow: none !important;
+  outline: none !important;
+}

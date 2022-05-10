@@ -1,0 +1,25 @@
+
+
+/*Breadcrumb Style*/
+.breadcrumb-item+.breadcrumb-item {
+    padding-left: .3rem !important;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    padding-right: .1rem !important;
+    font-size: 11px;
+    padding-top: .2rem;
+    color: #0F253E !important;
+    content: var(--bs-breadcrumb-divider, ">") !important;
+}
+.breadcrumb-item a{
+    color: #0F253E !important;
+    text-decoration: none !important;
+}
+
+.breadcrumb-item.active {
+    color: #36C0BE !important;
+}
+.breadcrumb-item.active :hover a {
+    text-decoration: none;
+    color: #36C0BE !important;
+}

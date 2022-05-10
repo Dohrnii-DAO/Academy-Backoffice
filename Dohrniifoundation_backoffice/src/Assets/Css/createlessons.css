@@ -1,0 +1,116 @@
+/* Create Lessons Section Style*/
+.create-lessons-section {
+  position: relative;
+  background-color: #eaf9f9;
+  padding: 2% 3% !important;
+}
+.create-lessons-title h3 {
+  font-weight: 500;
+  font-size: 22px;
+  color: #0f253e;
+}
+
+/* Left Create Lessons Form */
+.left-lessons-card {
+  border-radius: 0.375rem !important;
+  border: inherit !important;
+  min-height: 41rem;
+}
+.left-lessons-form p {
+  font-size: 1.06rem;
+  color: #36c0be !important;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.left-lessons-form input::placeholder,
+.left-lessons-form textarea::placeholder {
+  color: #a9b4b3 !important;
+}
+.input-group-text {
+  background-color: #36c0be !important;
+  color: #ffffff !important;
+}
+.text-area {
+  height: inherit !important;
+}
+.left-lessons-custom-file {
+  height: inherit !important;
+}
+.left-lessons-custom-file.form-control {
+  padding: 0.625rem 0.75rem !important;
+}
+::-webkit-file-upload-button {
+  display: none;
+}
+.form-control[type="file"]:not(:enabled) {
+  cursor: pointer;
+  color: #e71f1f;
+}
+.form-control[type="file"]:not(:disabled) {
+  cursor: pointer;
+  color: #a9b4b3;
+}
+.left-lessons-form {
+  margin: 1rem 0.375rem;
+}
+/* Right Create Lessons Form */
+.right-lessons-card {
+  border-radius: 0.375rem !important;
+  border: inherit !important;
+  min-height: 41rem;
+}
+.right-lessons-form {
+  margin: 1rem 0.375rem;
+}
+.right-lessons-form p {
+  font-size: 1.06rem;
+  color: #36c0be !important;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.right-lessons-form input::placeholder,
+.right-lessons-form textarea::placeholder {
+  color: #a9b4b3 !important;
+}
+
+.right-lessons-select .right-lessons-option {
+  color: #a9b4b3 !important;
+}
+
+.lessons-radio-check {
+  color: #989f9e;
+}
+@media (min-width: 576px) {
+  button.right-lessons-buttons {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+  }
+}
+/*media queries*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .left-lessons-card {
+    margin-bottom: 1rem;
+  }
+  .create-lessons-section {
+    padding: 18% 3% 2% 3% !important;
+  }
+}
+
+.lessonaction .actions2 {
+  margin-right: 25px;
+}
+/* .itemlist3 {
+  margin: 0px auto;
+} */
+
+.itemlist3.action {
+  text-align: right;
+  width: 30%;
+}
+
+.actionbtns.lessonaction {
+  display: flex;
+  justify-content: right;
+  margin-right: 0px;
+}

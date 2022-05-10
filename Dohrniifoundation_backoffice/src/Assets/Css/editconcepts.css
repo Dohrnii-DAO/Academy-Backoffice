@@ -1,0 +1,92 @@
+/* Create econcept Section Style*/
+.create-econcept-section {
+  position: relative;
+  background-color: #eaf9f9;
+  padding: 2% 3% !important;
+}
+.create-econcept-title h3 {
+  font-weight: 500;
+  font-size: 22px;
+  color: #0f253e;
+}
+
+/* Left Create econcept Form */
+.left-econcept-card {
+  border-radius: 0.375rem !important;
+  border: inherit !important;
+  min-height: 41rem;
+}
+.left-econcept-form p {
+  font-size: 1.06rem;
+  color: #36c0be !important;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.left-econcept-form input::placeholder,
+.left-econcept-form textarea::placeholder {
+  color: #a9b4b3 !important;
+}
+.input-group-text {
+  background-color: #36c0be !important;
+  color: #ffffff !important;
+}
+.text-area {
+  height: inherit !important;
+}
+.left-econcept-custom-file {
+  height: inherit !important;
+}
+.left-econcept-custom-file.form-control {
+  padding: 0.625rem 0.75rem !important;
+}
+::-webkit-file-upload-button {
+  display: none;
+}
+.form-control[type="file"]:not(:enabled) {
+  cursor: pointer;
+  color: #e71f1f;
+}
+.form-control[type="file"]:not(:disabled) {
+  cursor: pointer;
+  color: #a9b4b3;
+}
+.left-econcept-form {
+  margin: 1rem 0.375rem;
+}
+/* Right Create econcept Form */
+.right-econcept-card {
+  border-radius: 0.375rem !important;
+  border: inherit !important;
+  min-height: 41rem;
+}
+.right-econcept-form {
+  margin: 1rem 0.375rem;
+}
+.right-econcept-form p {
+  font-size: 1.06rem;
+  color: #36c0be !important;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.right-econcept-form input::placeholder,
+.right-econcept-form textarea::placeholder {
+  color: #a9b4b3 !important;
+}
+
+.right-econcept-select .right-econcept-option {
+  color: #a9b4b3 !important;
+}
+
+.econcept-radio-check {
+  color: #989f9e;
+}
+
+/*media queries*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .left-econcept-card {
+    margin-bottom: 1rem;
+  }
+  .create-econcept-section {
+    padding: 18% 3% 2% 3% !important;
+  }
+}

@@ -1,0 +1,3 @@
+export const REQUEST_LESSON_ADD = "lesson/REQUEST_LESSON_ADD";
+export const REQUEST_UPDATE_LESSON = "lesson/REQUEST_UPDATE_LESSON";
+export const REQUEST_LESSON_LIST = "lesson/REQUEST_LESSON_LIST";

@@ -1,0 +1,151 @@
+.lessons-section {
+  position: relative;
+  background-color: #eaf9f9;
+  padding: 3% 3% !important;
+}
+.lessons-title h3 {
+  margin: 0;
+  padding: 0 0 2rem 0;
+  font-weight: 500;
+  font-size: 22px;
+  color: #0f253e;
+}
+.lessons-form {
+  justify-content: end;
+}
+
+button.add-btn.btn.btn-primary {
+  padding: 0px 12px !important;
+  margin: 0px !important;
+  font-size: inherit;
+  height: 2.2rem !important;
+}
+input.form-control.search-input {
+  border: 1px solid #36c0be !important;
+  font-size: inherit;
+  height: 2.2rem !important;
+  width: 358px;
+  padding: 0 2.5rem 0 1.3rem !important;
+}
+/* lessons table */
+#table_id.lessons-teble {
+  border-top: 1px solid #d5e6ff !important;
+}
+.table-responsive {
+  overflow-x: hidden !important;
+}
+.lessons-teble thead tr {
+  background-color: #c5eeed !important;
+}
+img.lessons-type {
+  width: 25%;
+  margin: auto;
+  display: block;
+}
+img.lessons-action {
+  width: 26px;
+  margin: auto;
+}
+.lessons-teble tr,
+.lessons-teble th {
+  border-color: #d5e6ff !important;
+  font-weight: 400 !important;
+}
+.lessons-chapter {
+  background: #eafbff;
+  width: max-content;
+  margin: auto;
+  padding: 0 22px;
+  text-align: center;
+}
+.actions1.col {
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  cursor: pointer;
+}
+.actions2.col {
+  padding: 0;
+  text-align: start;
+  margin: 0;
+  cursor: pointer;
+}
+
+a.paginate_button.current {
+  border: 1px solid transparent !important;
+  padding: 1px !important;
+  margin-top: 10% !important;
+}
+form.right-chapter-form.lesson-classes .itemlist3.action {
+  width: 40%;
+  text-align: right;
+  margin-right: 0;
+}
+form.right-chapter-form.lesson-classes .actions2 {
+  margin-right: 10px;
+}
+/* .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    color: white !important;
+    border: transparent !important;
+    background-color: transparent !important;
+    background: #36C0BE !important;
+    padding: 0px  !important;
+} */
+.dataTables_wrapper .dataTables_paginate .paginate_button.active:hover {
+  color: white !important;
+  border: transparent !important;
+  background-color: transparent !important;
+  background: #36c0be !important;
+  padding: 0px !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  color: #fff !important;
+  border: none !important;
+  background-color: #3dc2bf !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  color: white !important;
+  border: 1px solid #979797 !important;
+  background-color: #36c0be !important;
+  /* background: none !important; */
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  color: #fff !important;
+  border: none !important;
+  background-color: #3dc2bf !important;
+  background: none;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  color: white !important;
+  background-color: #9adfde !important;
+  padding: 0 !important;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .table-responsive {
+    overflow-x: auto !important;
+  }
+  .lessons-section {
+    position: relative;
+    padding: 18% 7% 9% 7% !important;
+  }
+  input.form-control.search-input {
+    border: 1px solid #36c0be !important;
+    font-size: inherit;
+    height: 2.2rem !important;
+    width: auto;
+    padding: 0 2.5rem 0 1.3rem !important;
+    margin-bottom: 10%;
+  }
+  .lessons-form {
+    justify-content: center !important;
+  }
+  .lessons {
+    display: block;
+    text-align: end;
+  }
+}

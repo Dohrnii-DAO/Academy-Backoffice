@@ -1,0 +1,162 @@
+/* Create Class Section Style*/
+.create-class-section {
+  position: relative;
+  background-color: #eaf9f9;
+  padding: 2% 3% !important;
+}
+.create-class-title h3 {
+  font-weight: 500;
+  font-size: 22px;
+  color: #0f253e;
+}
+
+/* Left Create Class Form */
+.left-class-card {
+  border-radius: 0.375rem !important;
+  border: inherit !important;
+  min-height: 41rem;
+}
+.left-class-form p {
+  font-size: 1.06rem;
+  color: #36c0be !important;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.left-class-form input::placeholder,
+.left-class-form textarea::placeholder {
+  color: #a9b4b3 !important;
+}
+.input-group-text {
+  background-color: #36c0be !important;
+  color: #ffffff !important;
+}
+.text-area {
+  height: inherit !important;
+}
+.left-class-custom-file {
+  height: inherit !important;
+}
+.left-class-custom-file.form-control {
+  padding: 0.625rem 0.75rem !important;
+}
+::-webkit-file-upload-button {
+  display: none;
+}
+.form-control[type="file"]:not(:enabled) {
+  cursor: pointer;
+  color: #e71f1f;
+}
+.form-control[type="file"]:not(:disabled) {
+  cursor: pointer;
+  color: #a9b4b3;
+}
+.left-class-form {
+  margin: 1rem 0.375rem;
+}
+/* Right Create Class Form */
+.right-class-card {
+  border-radius: 0.375rem !important;
+  border: inherit !important;
+  min-height: 41rem;
+}
+.right-class-form {
+  margin: 1rem 0.375rem;
+}
+.right-class-form p {
+  font-size: 1.06rem;
+  color: #36c0be !important;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.right-class-form input::placeholder,
+.right-class-form textarea::placeholder {
+  color: #a9b4b3 !important;
+}
+
+.right-class-select .right-class-option {
+  color: #a9b4b3 !important;
+}
+
+.class-radio-check {
+  color: #989f9e;
+}
+button.right-class-buttons.px-4.float-end.btn.btn-primary {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+/*media queries*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .left-class-card {
+    margin-bottom: 1rem;
+  }
+  .create-class-section {
+    padding: 18% 3% 2% 3% !important;
+  }
+}
+.left-class-form {
+  margin: 2rem 0.375rem;
+}
+/* Right Create class Form */
+.right-class-card {
+  border-radius: 0.375rem !important;
+  border: inherit !important;
+  min-height: 41rem;
+}
+.right-class-form {
+  margin: 0rem 0.375rem;
+}
+.right-class-form p {
+  font-size: 1.06rem;
+  color: #36c0be !important;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.right-class-form input::placeholder,
+.right-class-form textarea::placeholder {
+  color: #a9b4b3 !important;
+}
+
+.right-class-select .right-class-option {
+  color: hsl(0, 0%, 0%) !important;
+}
+
+.jodit-status-bar__item.jodit-status-bar__item-right {
+  display: none !important;
+}
+
+.question-body {
+  height: 300px;
+  overflow: auto;
+}
+.class-action .question-delete {
+  vertical-align: middle;
+  padding: 2px;
+}
+img.class-action {
+  width: 26px;
+  margin: auto;
+}
+.actionbtns.question-delete {
+  display: flex;
+  justify-content: right;
+  margin-right: 5px;
+}
+.question-body.sticky-header {
+  position: relative;
+}
+
+.question-body.sticky-header thead.table-thead {
+  position: sticky;
+  top: -2px;
+  box-shadow: inset 0 -1.2px 0 #ababab;
+}
+@media (max-width: 767px) {
+  .question-body {
+    height: auto;
+  }
+  button.right-class-buttons.px-4.float-end.btn.btn-primary {
+    position: initial;
+  }
+}

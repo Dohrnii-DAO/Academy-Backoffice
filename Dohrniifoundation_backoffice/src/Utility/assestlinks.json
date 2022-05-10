@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "dohrnii_foundation",
+      "package_name": "com.dohrniifoundation.dohrnii",
+      "sha256_cert_fingerprints": [
+        "B9:D8:46:8F:38:4F:44:D9:9E:72:4A:1C:17:DD:80:28:65:B6:BB:F8:66:D1:1F:B1:36:11:94:3B:13:EF:8C:F6"
+      ]
+    }
+  }
+]

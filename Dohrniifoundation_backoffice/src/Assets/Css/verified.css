@@ -1,0 +1,231 @@
+
+.verified-section {
+    position: relative;
+}
+.verified-bg-left{
+    background-image: url(../../Assets/images/login/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.verified-bg-right{
+    padding: 0 !important;
+}
+.verified-form input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.verified-bg-left h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.verified-form p {
+    font-size: 16px;
+    color: #36c0be !important;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+label.verified-label img {
+    width: 15px;
+    margin: -7px 3px 0 0;
+}
+
+label.verified-label{
+    position: relative;
+    top: 21px;
+    left: 18px;
+    font-size: 15px;
+    background-color: #fdfdfd;
+    padding: 0 6px;
+}
+
+.verified-form input:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+
+.verified-bg-left .verified-form {
+    max-width: 65%;
+    margin: 13% auto;
+}
+
+.verified-bg-left .verified-form input::placeholder {
+    font-size: 15px;
+    color: #a9b4b3;
+    padding-top: 13px;
+}
+
+
+.logo img {
+    width: 30%;
+    height: auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 0 5% 0;
+}
+
+.verified-form .form-control {
+    height: calc(3em + .75rem + 2px);
+    border: 1px solid #73819f;
+    padding: 0 46px 0 25px;
+}
+
+form {
+    margin-top: 50px;
+}
+
+.verified-form .form-group {
+    position: relative;
+}
+
+button.verified-btn {
+    padding: 10px 30px 10px 30px;
+    background-color: #36C0BE;
+    border: 1px solid #36C0BE;
+    /* font-size: 20px; */
+    /* font-weight: 600; */
+    width: 100%;
+}
+button.verified-btn:hover {
+    background-color: #36C0BE;
+    border: 1px solid #36C0BE;
+}
+
+.verified-btn a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.verified-bg-right{
+    position: relative;
+    top: 0;
+    height: 100vh;
+}
+.verified-bg-right-block{    
+        background-image: url(../../Assets/images/login/bg-2.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+    img.verified-img {
+        width: 58%;
+        margin: 23% 21%;
+    }
+.verified-text {
+   color: #0F253E;
+   font-size: 22px;
+}
+
+.verified-text, p {    
+    padding-top: 0px;
+    color: #0F253E;
+}
+.bg-right-image{
+    height: 100vh;
+    width: 100%;
+}
+.verified-bg-right-text{
+    position: relative;
+    text-align: center;
+    bottom: 17%;
+    margin: auto;
+}
+button.verified-btn:hover {
+    background-color: #36C0BE;
+    border: 1px solid #36C0BE;
+}
+button.verified-btn:focus {
+    color: #fff ;
+    background-color: #36C0BE ;
+    border-color: #36C0BE ;
+    box-shadow: 0 0 0 0.25rem rgb(162 255 254 / 50%) !important;
+}
+/* iphoone 6, 7, 8 */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .logo img {
+        width: 42%;
+        height: auto;
+        margin: 8% 0% auto;
+        }
+    .verified-bg-right{
+        display: none;
+    }
+    .verified-bg-left .verified-form {
+        max-width: 90%;
+        margin: 30% auto;
+    }
+    .verified-bg-left h3 {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 21px;
+        margin: 4% 0;
+    }
+    .verified-form p {
+        font-size: 15px;
+        color: #36c0be !important;
+        font-weight: 500;
+        margin-bottom: 0px;
+    }
+}
+/* iphoone 6, 7, 8 plus */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+    .logo img {
+        width: 42%;
+        height: auto;
+        margin: 8% 0% auto;
+        }
+    .verified-bg-right{
+    display: none;
+    }
+    .verified-bg-left .verified-form {
+        max-width: 90%;
+        margin: 30% auto;
+    }
+    .verified-bg-left h3 {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 21px;
+        margin: 4% 0;
+    }
+    .verified-form p {
+        font-size: 15px;
+        color: #36c0be !important;
+        font-weight: 500;
+        margin-bottom: 0px;
+    }
+}
+/* I-Pad */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    .verified-bg-right{
+        display: none;
+    }
+    .verified-bg-left{
+        width: 100% !important;
+    }
+}
+/* I-Pad Pro*/
+@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {
+    .verified-bg-left .verified-form {
+        max-width: 65%;
+        margin: 28% auto;
+    }
+    .logo img {
+        width: 40% !important;
+        margin: 16% 0 auto !important;
+        height: auto;
+    }
+    img.verified-img {
+        width: 58%;
+        margin: 64% 21%;
+    }
+}

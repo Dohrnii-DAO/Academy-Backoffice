@@ -1,0 +1,259 @@
+.login-section {
+    position: relative;
+}
+/* Login Form Section */
+.login-bg-left{
+    background-image: url(../../Assets/images/login/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.login-bg-left .login-form {
+    max-width: 61%;
+    margin: 0% auto;
+}
+.login-bg-left .login-form input::placeholder {
+    font-size: 15px;
+    color: #a9b4b3;
+    /* color: #043642; */ /*as mockup*/
+    padding-top: 13px;
+}
+.logo img {
+    width: 30%;
+    height: auto;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0 5% 0;
+}
+.login-bg-left h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+}
+form {
+    margin-top: 50px;
+}
+.login-form .form-group {
+    position: relative;
+}
+label.emailadd-label img,
+label.pwd-label img {
+    width: 15px;
+    margin: -7px 3px 0 0;
+}
+label.emailadd-label,
+label.pwd-label {
+    position: relative;
+    top: 21px;
+    left: 18px;
+    font-size: 15px;
+    background-color: #fdfdfd;
+    padding: 0 6px;
+    color: #5b5e60;
+}
+.login-form input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.login-form p {
+    font-size: 1.06rem;
+    color: #36c0be !important;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.login-form a{
+    text-decoration: none;
+    color: inherit;
+}
+.login-form p a {
+    text-decoration: none;
+    color: inherit;
+}
+.login-form p :hover a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.login-form input[type="checkbox"]{
+    border-color: #36C0BE !important;
+    border-radius: 50%;   
+    width: 18px;
+    height: 18px;
+    margin: 3px 0px 0px -25px;
+}
+.form-check-input:checked, .form-check-input :active {
+    background-color: #36C0BE !important;
+    border-color: #36C0BE !important;
+    border: solid #ffffff;
+    
+} 
+.form-check-input.is-valid~.form-check-label, .was-validated .form-check-input:valid~.form-check-label {
+    color: #36C0BE !important;
+}
+span.hide-eye {
+    position: relative;
+    top: -40px;
+    left: 92%;
+}
+span.hide-eye img {
+    width: 18px;
+}
+img.login-img {
+    width: 55%;
+    margin: 20% 23%;
+}
+
+/* Carousel Section */
+.login-bg-right{
+    padding: 0 !important;
+}
+.carousel-bg{
+    background-image: url(../../Assets/images/login/bg-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.carousel-item {
+    height: 100vh;
+}
+.carousel-image{
+    height: 100vh;
+    width: 100%;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.carousel-indicators button {
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50% !important;
+    border: 1px solid #1d2124 !important;
+    background-color: transparent !important;
+}
+.carousel-indicators .active {
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50% !important;
+    border: 1px solid #36c0be !important;
+    background-color: #36c0be !important;
+}
+.carousel-indicators {
+    margin-bottom: 4% !important;
+}
+.login-text{
+   color: #0F253E;
+   font-size: 22px;
+   font-weight: 600;
+}
+.login-caption {    
+   color: #0F253E !important;
+   font-size: 18px !important;
+   font-weight: 500;
+}
+.carousel-caption {   
+    padding-bottom: 4% !important;
+}
+.carousel-control-prev, .carousel-control-next{
+    display: none !important;
+}
+/*media queries*/
+/* iphone 6, 7, 8 */
+    @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+        .logo img {
+            width: 42%;
+            height: auto;
+            margin: 8% 0% auto;
+        }
+        .login-bg-right{
+            display: none;
+        }
+        .login-bg-left .login-form {
+            max-width: 90%;
+            margin: 8% auto;
+        }
+        .login-bg-left h3 {
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 21px;
+            margin: 4% 0;
+        }
+        .login-form p {
+            font-size: 15px;
+            color: #36c0be !important;
+            font-weight: 500;
+            margin-bottom: 0px;
+        }
+    }
+/* iphoone 6, 7, 8 plus */
+    @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+        .logo img {
+            width: 42%;
+            height: auto;
+            margin: 8% 0% auto;
+        }
+        .login-bg-right{
+        display: none;
+        }
+        .login-bg-left .login-form {
+            max-width: 90%;
+            margin: 8% auto;
+        }
+        .login-bg-left h3 {
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 21px;
+            margin: 4% 0;
+        }
+        .login-form p {
+            font-size: 15px;
+            color: #36c0be !important;
+            font-weight: 500;
+            margin-bottom: 0px;
+        }
+    }
+/* I-Pad */
+    @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+        .login-bg-right{
+            display: none;
+        }
+        .login-bg-left{
+            width: 100% !important;
+        }
+        .logo img {
+            width: 40% !important;
+            margin: 16% 0 auto !important;
+            height: auto;
+        }
+    }
+/* I-Pad Pro*/
+    @media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {
+        .login-bg-left .login-form {
+            max-width: 78%;
+            margin: 15% auto;
+        }
+        .logo img {
+            width: 40% !important;
+            margin: 16% 0 auto !important;
+            height: auto;
+        }
+        img.login-img {
+            width: 60%;
+            margin: 64% 20%;
+        }
+    }
+    @media screen and (min-width: 1367px) {
+        .login-bg-left .login-form {
+            max-width: 61%;
+            margin: 15% auto;
+        }
+      }
+
+
